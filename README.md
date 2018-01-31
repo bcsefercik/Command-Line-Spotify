@@ -21,6 +21,7 @@ In terminal:
 	pa, pause:		Pause
 	t,toogle:		Toggle between Play and Pause.
 	d, n, next:		Next song
-	a, pr, prev:	Previous song
+	a, pr, prev:		Previous song
+	Example:			sptfy p
 
 Simply, all keys you need:	w a s d 
