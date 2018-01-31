@@ -7,8 +7,8 @@ Most probably someone already implemented a similar tool. But after a brief sear
 ## Installation
 In terminal enter following commands:
 
-$ make
-$ sudo make install
+	make
+	sudo make install
 
 ## Usage
 In terminal: 
@@ -22,5 +22,6 @@ In terminal:
 	d, n, next:		Next song
 	a, pr, prev:	Previous song
 
-Simply, all keys you need:		  w
-								a s d 
+Simply, all keys you need:		
+### 	  w
+###		a s d 
