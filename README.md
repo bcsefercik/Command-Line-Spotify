@@ -12,6 +12,7 @@ In terminal enter following commands:
 
 ## Usage
 In terminal: 
+
 ### sptfy <action>
 
 	<action>:	
