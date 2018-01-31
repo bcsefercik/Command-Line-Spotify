@@ -2,7 +2,7 @@
 
 ## Description
 This aims to be a simple tool to control Spotify Clieant on Ubuntu Linux. It is basically a wrapper for dbus command line message to MediaPlayer2.
-Most probably someone already implemented a similar tool. But after a brief search, I was not able to find a tool that is simple enough so I thought it would take shorter time to implement by myself.
+Most probably, someone already implemented a similar tool. But after a brief search, I was not able to find a tool that is simple enough for me, so I thought it would take less time to implement by myselfinstead of searching.
 
 ## Installation
 In terminal enter following commands:
@@ -13,7 +13,7 @@ In terminal enter following commands:
 ## Usage
 In terminal: 
 
-### sptfy 'action'
+	### sptfy 'action'
 
 	'action':	
 	w, p, play:		Play
