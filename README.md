@@ -13,7 +13,7 @@ In terminal enter following commands:
 ## Usage
 In terminal: 
 
-	### sptfy 'action'
+	$ sptfy 'action'
 
 	'action':	
 	w, p, play:		Play
