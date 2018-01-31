@@ -13,9 +13,9 @@ In terminal enter following commands:
 ## Usage
 In terminal: 
 
-### sptfy "action"
+### sptfy 'action'
 
-	"action":	
+	'action':	
 	w, p, play:		Play
 	s, stop:		Stop
 	pa, pause:		Pause
