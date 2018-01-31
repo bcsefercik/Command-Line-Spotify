@@ -13,9 +13,9 @@ In terminal enter following commands:
 ## Usage
 In terminal: 
 
-### "sptfy <action>"
+### sptfy "action"
 
-	<action>:	
+	"action":	
 	w, p, play:		Play
 	s, stop:		Stop
 	pa, pause:		Pause
@@ -23,6 +23,4 @@ In terminal:
 	d, n, next:		Next song
 	a, pr, prev:	Previous song
 
-Simply, all keys you need:		
-### 	  w
-###		a s d 
+Simply, all keys you need:	w a s d 
