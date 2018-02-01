@@ -21,15 +21,15 @@ int usage(){
 int main(int argc, char* argv[]) {
 	if (argc == 2)
 		if (strcmp(argv[1], "p") == 0 || strcmp(argv[1], "-p") == 0 || strcmp(argv[1], "play") == 0 || strcmp(argv[1], "w") == 0)
-			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play > nul ");
+			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play > /dev/null ");
 		else if (strcmp(argv[1], "s") == 0 || strcmp(argv[1], "-s") == 0 || strcmp(argv[1], "stop") == 0 || strcmp(argv[1], "pa") == 0 || strcmp(argv[1], "-pa") == 0 || strcmp(argv[1], "pause") == 0)
-			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause > nul ");
+			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause > /dev/null ");
 		else if (strcmp(argv[1], "t") == 0 || strcmp(argv[1], "-t") == 0 || strcmp(argv[1], "toggle") == 0)
-			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause > nul ");
+			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause > /dev/null ");
 		else if (strcmp(argv[1], "n") == 0 || strcmp(argv[1], "-n") == 0 || strcmp(argv[1], "next") == 0 || strcmp(argv[1], "d") == 0)
-			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next > nul ");
+			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next > /dev/null ");
 		else if (strcmp(argv[1], "a") == 0 || strcmp(argv[1], "pr") == 0 || strcmp(argv[1], "-pr") == 0 || strcmp(argv[1], "prev") == 0 || strcmp(argv[1], "previous") == 0)
-			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous > nul ");
+			system("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous > /dev/null ");
 		else
 			usage();
 	else
